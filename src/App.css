@@ -1,0 +1,65 @@
+.table {
+	border-collapse: collapse;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+.table th,
+.table td {
+	text-align: left;
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+.table th {
+	background-color: #f2f2f2;
+	color: #333;
+	font-weight: bold;
+	border-right: 1px solid #ddd;
+}
+
+.table td {
+	border-right: 1px solid #ddd;
+}
+
+.dropdowns-container {
+	display: flex;
+	justify-content: center;
+}
+
+.dropdown-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 1rem;
+}
+
+label {
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+select {
+	padding: 0.5rem;
+	font-size: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	background-color: #fff;
+	color: #333;
+	width: 100%;
+	max-width: 10rem;
+}
+
+.get-numbers-button {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+}
